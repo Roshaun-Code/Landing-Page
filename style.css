@@ -75,6 +75,7 @@ body{
     align-self: center;
     margin: 0px;
 }
+
 .list{
     display: flex;
 }
