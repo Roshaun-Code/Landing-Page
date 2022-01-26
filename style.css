@@ -133,12 +133,39 @@ body{
     padding: 16px;
     justify-content: center;
     align-items: center;
+    border: black solid 2px;
 }
 
-.body-2, .p{
+/*.body-2, .p{
     color: #2D3142;
     font-size: 36px;
-    font-style: italic;;
+    font-style: italic;
+}*/
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    gap: 16px;
+
+}
+.text .quote{
+    color: #2D3142;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    margin: 0px;
+    font-weight: lighter;
+
+}
+
+.author{
+    color: #2D3142;
+    font-size: 28px;
+    font-weight: 670;
+    margin: 3px;
+    align-self: flex-end;
+    justify-content: flex-end;
 }
 
 .body-3{
